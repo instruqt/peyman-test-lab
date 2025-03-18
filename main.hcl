@@ -21,15 +21,5 @@ resource "lab" "test" {
   #   }
   }
 
-  # content {
-  #   chapter "chapter-1" {
-  #     title = "Chapter 1"
-  #     layout = "single_column"
-
-  #     page "first" {
-  #       layout = "single_column"
-  #       source = resource.page.first
-  #     }
-  #   }
-  # }
+  content {}
 }

@@ -8,8 +8,8 @@ resource "lab" "test" {
   title = "Test Lab"
   description = "Nothing"
 
-  # layout "basic" {
-  #   source = resource.layout.basic
+  layout "basic" {
+    source = resource.layout.basic
 
   #   tab "terminal" {
   #     panel = "terminal"
@@ -19,7 +19,7 @@ resource "lab" "test" {
   #   instructions {
   #     panel = "instructions"
   #   }
-  # }
+  }
 
   # content {
   #   chapter "chapter-1" {
